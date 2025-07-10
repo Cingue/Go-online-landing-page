@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", "Poppins", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+a{
+    color: white;
+}
+
+p{
+    text-align: justify;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+@keyframes bouncing {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100%{
+    transform: translateY(5px);
+  }
+}
+
+
+/* NAV CSS STARTS*/
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-nav-1{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: .5rem;
+}
+
+.sub-container-nav-2{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.sub-container-nav-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    color: white;
+}
+
+#whatsapp{
+    width: 30px;
+    height: 30px;
+}
+
+nav img{
+    width: 47px;
+    height: 58px;
+}
+/* NAV CSS ENDS*/
+
+
+
+/* MAIN CSS START*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    gap: 1rem;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.sub-container-main-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    width: 100%;
+}
+
+.sub-container-main-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin-bottom: .6rem;
+}
+.sub-container-main-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.sub-container-main-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    gap: .5em;
+}
+
+.sub-container-main-5{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.sub-container-main-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/* CSS FIRST PACK STARTS*/
+.sub-container-main-7{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1em;
+}
+
+.sub-container-main-8{
+    display: flex;
+    flex-direction: column;
+    border-radius: .4rem;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.sub-container-main-8:hover{
+    border:1px solid #9d7d6d;
+    transition: .2s;
+}
+
+.sub-container-main-9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    gap: .4rem;
+    background-color: #fafafa;
+    padding: .3rem;
+}
+
+.sub-container-main-10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-container-main-11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin-top: .4rem;
+    margin-bottom: .7rem;
+}
+
+.sub-container-main-11 :nth-child(1){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-11 :nth-child(2){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-11 :nth-child(3){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    border: .5px solid #9d7d6d;
+}
+
+.sub-container-main-11 :nth-child(4){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    border: .5px solid #9d7d6d;
+}
+
+.sub-container-main-11 :nth-child(5){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    border: .5px solid #9d7d6d;
+}
+
+.sub-container-main-11 :nth-child(6){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    border: .5px solid #9d7d6d;
+}
+
+.sub-container-main-12{
+    display: flex;
+    padding-left: .3rem;
+    margin-top: .5rem;
+}
+
+.sub-container-main-12 ul{
+    line-height: 1.8rem;
+    padding: 1rem;
+}
+
+.sub-container-main-13{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: .5rem;
+    border-radius: .2rem;
+    width: 60%;
+    background-color: #f4cf00;
+}
+
+.sub-container-main-14{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-container-main-14 :nth-child(1){
+    text-decoration: underline;
+    margin-top: .3rem;
+}
+
+.sub-container-main-14 :nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+}
+
+.sub-container-main-14 :nth-child(3) img{
+    width: 40px;
+    height: 40px;
+}
+
+.sub-container-main-15{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: .5rem;
+    border-radius: .2rem;
+    margin-top: .7rem;
+    width: 35%;
+    background-color: #f4cf00;
+}
+/* CSS FIRST PACK ENDS*/
+
+
+/* CSS SECOND PACK STARTS*/
+.sub-container-main-star{
+    display: flex;
+    flex-direction: column;
+    border-radius: .4rem;
+    background-color: #fafafa;
+    border: 1px solid #9d7d6d;
+    cursor: pointer;
+}
+
+.sub-container-main-star:hover{
+    transform: scale(0.95);
+    transition: .2s;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #9d7d6d;
+    border-radius: .1rem;
+    color: white;
+    padding: .5rem;
+}
+.sub-container-main-16{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin-top: .4rem;
+    margin-bottom: .7rem;
+}
+
+.sub-container-main-16 :nth-child(1){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-16 :nth-child(2){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-16 :nth-child(3){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-16 :nth-child(4){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-16 :nth-child(5){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    border: .5px solid #9d7d6d;
+}
+
+.sub-container-main-16 :nth-child(6){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    border: .5px solid #9d7d6d;
+}
+/* CSS SECOND PACK ENDS*/
+
+/* CSS LAST PACK STARTS*/
+.sub-container-main-17{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin-top: .4rem;
+    margin-bottom: .7rem;
+}
+
+.sub-container-main-17 :nth-child(1){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-17 :nth-child(2){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-17 :nth-child(3){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-17 :nth-child(4){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-17 :nth-child(5){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+
+.sub-container-main-17 :nth-child(6){
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 60%;
+    background-color: #9d7d6d;
+}
+/* CSS LAST PACK ENDS*/
+
+/* CSS FORM STARTS*/
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    border-radius: .5em;
+    gap: .5em;
+    width: 70%;
+    margin-top: 1.5rem;
+}
+
+.container-form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+}
+
+.container-form1 img{
+    width: 40px;
+    height: 40px;
+}
+
+form label {
+    align-self: flex-start;
+}
+
+.form-input-1, .form-input-2, .form-input-3, .form-input-4, .form-input-5, .form-input-6{
+    width: 100%;
+    padding: .6rem;
+    background-color: white;
+    border-radius: .3rem;
+}
+
+form input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+form select {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+form textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+form button{
+    align-self: center;
+    border: none;
+    border-radius: .3rem;
+    margin-top: 1.3rem;
+    color: rgb(0, 0, 0);
+    background-color: #f4cf00;
+    cursor: pointer;
+    padding: .7rem 1rem .7rem 1rem;
+}
+
+form button:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+/* CSS FORM ENDS*/
+
+/* CSS TESTIMONY ENDS*/
+.testimony{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.testimony div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.testimony a{
+    color:  black;
+}
+
+/* CSS TESTIMONY ENDS*/
+
+/* CSS FAQ STARTS*/
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: .5rem;
+    background-color: white;
+    border-radius: .3rem;
+    padding: 1rem;
+}
+
+.faq-text{
+    align-self: center;
+}
+
+.faq-div-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+    justify-items: flex-end;
+    border-radius: .5rem;
+    padding: .7rem;
+    background-color: #f1f1f1
+}
+
+#CTA{
+    display: none;
+}
+
+
+/* CSS FAQ ENDS*/
+
+/* CSS RESPONSIVE STARTS*/
+@media (max-width: 1023px) {
+    #offer-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+#CTA{
+    display: block;
+    border-radius: 0;
+    position: fixed;
+    inset: 96% 0 0 0;
+    padding-left: 30%;
+    font-weight: 600;
+    animation: bouncing .5s ease infinite alternate ;
+  }
+}
+
+/* CSS RESPONSIVE ENDS*/
+
+/* MAIN CSS ENDS*/
