@@ -20,18 +20,18 @@
                         </div>
                         <div class="sub-container-main-12">
                             <ul>
-                                <li>✓ Hébergement annuel</li>
-                                <li>✓ 02 adresses E-Mail pro</li>
-                                <li>✓ Formulaire de contact</li>
-                                <li>✓ 20 GB de stockage offert</li>
-                                <li>✓ 01 nom de domain offert</li>
-                                <li>✓ Design web standard</li>
-                                <li>✓ Redirection WhatsApp</li>
-                                <li>✓ Création 01 catégorie produits (05 produits)</li>
-                                <li>✓ Mise à jour gratuite pendant 02 mois</li>
-                                <li>✓ Installation du pixel Facebook</li>
-                                <li>✓ Certificat SSL gratuit</li>
-                                <li>✓ Support technique disponible 7j/7</li>
+                                <li>✅ Hébergement annuel</li>
+                                <li>✅ <strong>01</strong> adresses E-Mail pro</li>
+                                <li>✅ Formulaire de contact</li>
+                                <li>✅ <strong>20 GB</strong> de stockage offert</li>
+                                <li>✅ 01 nom de domain offert</li>
+                                <li>✅ Design web standard</li>
+                                <li>✅ Redirection WhatsApp</li>
+                                <li>✅ Création <strong>01 </strong>catégorie produits (05 produits)</li>
+                                <li>✅ Mise à jour gratuite pendant 02 mois</li>
+                                <li>✅ Installation du pixel Facebook</li>
+                                <li>✅ Certificat SSL gratuit</li>
+                                <li>✅ Support technique disponible 7j/7</li>
                             </ul>
                         </div>
 
@@ -78,20 +78,20 @@
                         </div>
                         <div class="sub-container-main-12">
                             <ul>
-                                <li>✓ Hébergement annuel</li>
-                                <li>✓ 02 adresses E-Mail pro</li>
-                                <li>✓ Formulaire de contact</li>
-                                <li>✓ 36 GB de stockage offert</li>
-                                <li>✓ 01 nom de domain offert</li>
-                                <li>✓ Design web standard</li>
-                                <li>✓ Redirection WhatsApp</li>
-                                <li>✓ Création 03 catégories produits (15 produits/catégorie)</li>
-                                <li>✓ Mise à jour gratuite pendant 06 mois</li>
-                                <li>✓ Installation du pixel Facebook</li>
-                                <li>✓ S.E.O de base</li>
-                                <li>✓ Installation de Google Analytics</li>
-                                <li>✓ Certificat SSL gratuit</li>
-                                <li>✓ Support technique disponible 7j/7</li>
+                                <li>✅ Hébergement annuel</li>
+                                <li>✅ <strong>02</strong> adresses E-Mail pro</li>
+                                <li>✅ Formulaire de contact</li>
+                                <li>✅ <strong>36 GB</strong> de stockage offert</li>
+                                <li>✅ 01 nom de domain offert</li>
+                                <li>✅ Design web standard</li>
+                                <li>✅ Redirection WhatsApp</li>
+                                <li>✅ Création <strong>03 </strong>catégories produits (<strong>15 </strong>produits/catégorie)</li>
+                                <li>✅ Mise à jour gratuite pendant <strong>06 mois</strong></li>
+                                <li>✅ Installation du pixel Facebook</li>
+                                <li>✅ <strong>S.E.O de base</strong></li>
+                                <li>✅ Installation de <strong>Google Analytics</strong></li>
+                                <li>✅ Certificat SSL gratuit</li>
+                                <li>✅ Support technique disponible 7j/7</li>
                             </ul>
                         </div>
 
@@ -135,20 +135,20 @@
                         </div>
                         <div class="sub-container-main-12">
                             <ul>
-                                <li>✓ Hébergement annuel</li>
-                                <li>✓ 08 adresses E-Mail pro</li>
-                                <li>✓ Formulaire de contact</li>
-                                <li>✓ 48 GB de stockage offert</li>
-                                <li>✓ 01 nom de domain offert</li>
-                                <li>✓ Design web personnalisé</li>
-                                <li>✓ Redirection WhatsApp</li>
-                                <li>✓ Création 06 catégories produits (20 produits/catégorie)</li>
-                                <li>✓ Mise à jour gratuite pendant 06 mois</li>
-                                <li>✓ Installation du pixel Facebook</li>
-                                <li>✓ S.E.O de complet</li>
-                                <li>✓ Installation de Google Analytics</li>
-                                <li>✓ Certificat SSL gratuit</li>
-                                <li>✓ Support technique disponible 7j/7</li>
+                                <li>✅ Hébergement annuel</li>
+                                <li>✅ <strong>08</strong> adresses E-Mail pro</li>
+                                <li>✅ Formulaire de contact</li>
+                                <li>✅ <strong>48 GB</strong> de stockage offert</li>
+                                <li>✅ 01 nom de domain offert</li>
+                                <li>✅ Design web <strong>personnalisé</strong></li>
+                                <li>✅ Redirection WhatsApp</li>
+                                <li>✅ Création <strong>06</strong> catégories produits (<strong>20</strong> produits/catégorie)</li>
+                                <li>✅ Mise à jour gratuite pendant <strong>08</strong> mois</li>
+                                <li>✅ Installation du pixel Facebook</li>
+                                <li>✅ <strong>S.E.O de complet</strong></li>
+                                <li>✅ Installation de <strong>Google Analytics</strong></li>
+                                <li>✅ Certificat SSL gratuit</li>
+                                <li>✅ Support technique disponible 7j/7</li>
                             </ul>
                         </div>
 

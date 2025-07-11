@@ -40,7 +40,7 @@
 
     <label htmlFor="text-area"> Ajouter un commentaire</label>
     <div class="form-input-6">
-    <textarea className="w-full outline-none"id="text-area"name="text_area"rows="5"cols="33"placeholder="Ajouter un commentaire ou une préoccupation"></textarea>
+    <textarea className="w-full outline-none"id="text-area"name="text_area"rows="5"cols="33"placeholder="Ajoutez un commentaire ou une préoccupation"></textarea>
     </div>
 
     <button type="submit"> Envoyer</button>
@@ -54,10 +54,10 @@
 </form>
 
 <div class="testimony" id="formulaire">
-    <p>Consultez notre derniere réalisation</p>
+    <p style="font-weight: 600;">Consultez notre derniere réalisation</p>
     <div>
         <img src="image/logo.png" alt="1963-store" width="70px" height="70px" loading="lazy">
-        <a href="https://www.1963-store.com/category/mode/montres" traget="_blank">cliquez ici pour consulter le site</a>
+        <a href="https://www.1963-store.com/category/mode/montres" traget="_blank" style="text-decoration: underline;">cliquez ici pour consulter le site</a>
     </div>
 </div>
 
@@ -69,5 +69,5 @@
         <img src="image/down.svg" alt="icon" width="20px" height="20px" loading="lazy" id="up-1">
     </div>
 
-    <p class="response-1" style="display: none;">Nous vous livrons votre site e-commerce, page de vente ou blog en seulement 7 jours si vous vous fournissez à temps tous les éléments requis</p>
+    <p class="response-1" style="display: none;">Nous vous livrons votre site e-commerce, page de vente ou blog en seulement 7 jours si vous nous fournissez à temps tous les éléments requis</p>
 </div>
