@@ -13,13 +13,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '652459297409081');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=652459297409081&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 <body>
     <?php include('include/Navbar.php');?>
         <main>
             <div class="sub-container-main-1">
                 <div class="sub-container-main-2">
-                    <h1 style="text-align: start;">Boutique en ligne et integration des moyens de paiement avec un budget plus légé !</h1>
+                    <h1 style="text-align: start;">Boutique en ligne et intégration des moyens de paiement avec un budget plus légé !</h1>
                     <p style="font-size: 1.2rem;">Boostez votre image de marque, augmentez votre taux de conversion, démarquez vous de vos concurents grâce à notre offre <strong> LEVEL UP</strong> qui vous propose la nouvelle et meilleure solution pour la création des sites web.</p>
                 </div>
 
@@ -32,7 +49,7 @@
 
                 <div id="a-propos" class="sub-container-main-4">
                     <h4 style="font-size: 1.2rem;">Pourquoi nous choisir ?</h4>
-                    <p style="font-size: 1.2rem; line-height: 1.6rem;"><strong>LEVEL UP</strong> utilise La technologie Next js pour la création de vos sites web. Cette technologie de pointe offre une solution ultra moderne pour la création des sites web, applications web, boutiques e-commerce, pages de vente et blog plus dynamique que les technologies classiques. </p>
+                    <p style="font-size: 1.2rem; line-height: 1.6rem;"><strong>LEVEL UP</strong> utilise La technologie Next js pour la création de vos sites web. Cette technologie de pointe offre une solution ultra moderne pour la création des sites web, applications web, boutiques e-commerce, pages de vente, blog plus dynamique que les technologies classiques. </p>
                 </div>
 
                 <!-- <div class="sub-container-main-5">
