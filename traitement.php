@@ -27,7 +27,7 @@ if (isset($_POST)) {
         $mail->SMTPAuth   = true;                                   
         
         $mail->Username   = 'Vanoldcingue@gmail.com';            
-        $mail->Password   = ' uqef iwit cufv sene';                    
+        $mail->Password   = 'null';                    
         $mail->SMTPSecure =PHPMailer::ENCRYPTION_SMTPS;                                  
         $mail->Port       = 465;                                    
     
